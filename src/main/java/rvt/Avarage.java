@@ -12,5 +12,5 @@ public class Avarage {
         int second = Integer.valueOf(scanner.nextLine());
         int summa = first + second;
         System.out.println("The sum of the numbers is " + summa);
-    }
+    }   
 }
