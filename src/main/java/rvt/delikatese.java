@@ -11,7 +11,7 @@ public class delikatese {
         System.out.println("Ievadi cenu: ");
         double cena = Double.valueOf(scanner.nextLine());
 
-        System.out.println("Ekspress  piegāde (0 - ne, 1 - ja)");
+        System.out.println("Ekspress  piegade (0 - ne, 1 - ja)");
         int ekspress = Integer.valueOf(scanner.nextLine());
         double piegade = 0;
         if (cena < 10) {
