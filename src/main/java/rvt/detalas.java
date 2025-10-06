@@ -24,6 +24,7 @@ public class detalas {
         System.out.println("Uzgrieznu skaits: " + uzgrieznu);
         System.out.println("Paplaksnu skaits: " + paplaksnu);
         System.out.println();
+            
 
         if (uzgrieznu < skruvji) {
             System.out.println("Parbaudi pasutijumu: par maz uzgrieznu");
