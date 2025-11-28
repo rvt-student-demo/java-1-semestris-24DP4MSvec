@@ -1,6 +1,6 @@
 package rvt;
 
-public class From_one_to_parameter {
+public class From_one_to_parameter1 {
     public static void main(String[] args) {
         Integer number;
         printUntlisNumber(5);

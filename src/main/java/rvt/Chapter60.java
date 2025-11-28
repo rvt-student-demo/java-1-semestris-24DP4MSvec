@@ -1,6 +1,6 @@
 package rvt;
 
-public class Chapter_60 {
+public class Chapter60 {
     public static void main(String[] args) {
         ex5();
     }

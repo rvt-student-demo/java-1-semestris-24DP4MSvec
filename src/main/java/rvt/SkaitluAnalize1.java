@@ -2,7 +2,7 @@ package rvt;
 
 import java.util.Scanner;
 
-public class SkaitluAnalize {
+public class SkaitluAnalize1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package rvt;
 
 import java.util.Scanner;
 
-public class Grade {
+public class Grade1 {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 

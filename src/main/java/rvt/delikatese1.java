@@ -1,7 +1,7 @@
 package rvt;
 
 import java.util.Scanner;
-public class delikatese {
+public class delikatese1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
