@@ -2,7 +2,7 @@ package rvt;
 
 import java.util.Scanner;
 
-public class Avarage {
+public class Avarage_of_three_numbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
