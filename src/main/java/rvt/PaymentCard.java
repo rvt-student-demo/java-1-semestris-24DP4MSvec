@@ -12,11 +12,24 @@ public class PaymentCard {
     }
 
     public void eatAffordably() {
-    balance -= 2.60;
+    if(this.balance >= 2.60 ){
+        this.balance -= 2.60;
+        
+    }
 }
 
 public void eatHeartily() {
-    balance -= 4.60;
+    if(this.balance >= 4.60 ){
+        this.balance -= 4.60;
+    }   
 }
+public void addMoney(double amount) {
+    if(this.balance <= 150){
+        this.balance += amount;
 
+    }
+    if(this.balance > 150){
+        this.balance = 150;
+    }
+}
 }
