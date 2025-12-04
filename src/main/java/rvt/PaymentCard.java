@@ -25,8 +25,9 @@ public void eatHeartily() {
 }
 public void addMoney(double amount) {
     if(this.balance <= 150){
+        if(amount >= 0){ 
         this.balance += amount;
-
+        }
     }
     if(this.balance > 150){
         this.balance = 150;
