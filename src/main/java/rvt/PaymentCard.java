@@ -3,34 +3,27 @@ package rvt;
 public class PaymentCard {
     private double balance;
 
-    public PaymentCard(double openingBalance) {
-        
-        this.balance = openingBalance;
-    }
-    public String toString() {
-        return "The card has a balance of " +  this.balance + " euros";
+    public PaymentCard(double balance) {
+        this.balance = balance;
     }
 
-    public void eatAffordably() {
-    if(this.balance >= 2.60 ){
-        this.balance -= 2.60;
-        
+    public double balance() {
+        return this.balance;
     }
-}
 
-public void eatHeartily() {
-    if(this.balance >= 4.60 ){
-        this.balance -= 4.60;
-    }   
-}
-public void addMoney(double amount) {
-    if(this.balance <= 150){
-        if(amount >= 0){ 
-        this.balance += amount;
+    public void addMoney(double increase) {
+        this.balance = this.balance + increase;
+    }
+
+    public boolean takeMoney(double amount) {
+        // implement the method so that it only takes money from the card if
+        // the balance is at least the amount parameter.
+        // returns true if successful and false otherwise
+        if (amount <= this.balance){
+           this.balance = this.balance - amount;
+            return true;
+        }else {
+            return false;
         }
     }
-    if(this.balance > 150){
-        this.balance = 150;
-    }
-}
 }
